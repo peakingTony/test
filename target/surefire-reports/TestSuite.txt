@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 39.775 sec <<< FAILURE! - in TestSuite
+loginFail(LoginTest)  Time elapsed: 6.148 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at org.webdriver.patatiumwebui.utils.Assertion.VerityError(Assertion.java:1041)
+	at LoginTest.loginFail(LoginTest.java:60)
+
+loginFail(LoginTest)  Time elapsed: 4.519 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at org.webdriver.patatiumwebui.utils.Assertion.VerityError(Assertion.java:1041)
+	at LoginTest.loginFail(LoginTest.java:60)
+
+login(LoginTest)  Time elapsed: 5.486 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at org.webdriver.patatiumwebui.utils.Assertion.VerityError(Assertion.java:1041)
+	at LoginTest.login(LoginTest.java:39)
+

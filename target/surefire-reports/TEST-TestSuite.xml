@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="11.634" tests="5" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\testtest\PatatiumWebUi"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\testtest\PatatiumWebUi"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\22327\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\javaworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1655687463626057632.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;E:\TestToos\apache-ant-1.10.0\apache-ant-1.10.0\bin;C:\Program Files\Git\bin;C:\pyt;E:\Androidsdk\adt-bundle-windows\sdk\platform-tools;E:\anzhuang\Appium\node_modules\.bin\;E:\anzhuang\node\;E:\Androidsdk\adt-bundle-windows\sdk\tools;E:\anzhuang\apache-maven-3.5.3\bin;C:\Users\22327\AppData\Local\Microsoft\WindowsApps;;C:\Users\22327\AppData\Local\Programs\Fiddler;C:\Users\22327\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;E:\TestToos\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\22327"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="22327"/>
+    <property name="java.class.path" value="E:\anzhuang\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_111"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\anzhuang\apache-maven-3.5.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginFail" classname="LoginTest" time="6.148">
+    <failure message="expected [0] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at org.webdriver.patatiumwebui.utils.Assertion.VerityError(Assertion.java:1041)
+	at LoginTest.loginFail(LoginTest.java:60)
+</failure>
+    <system-out><![CDATA[[2018-05-23 22:18:55,940] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------寮�濮嬫墽琛屾祴璇�---------------
+[2018-05-23 22:18:55,941] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 璇诲彇testng.xml閰嶇疆鐨凢irefoxDriver娴忚鍣ㄥ苟灏嗗叾鍒濆鍖�
+
+
+[2018-05-23 22:19:01,855] INFO  org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥:鐧诲綍澶辫触鐢ㄤ緥---start
+[2018-05-23 22:19:04,738] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 鎵撳紑娴忚鍣紝璁块棶https://passport.jd.com/new/login.aspx缃戝潃!
+https://passport.jd.com/new/login.aspx
+[2018-05-23 22:19:05,089] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氳处鎴风櫥褰曟柟寮廩By.xpath://a[text()='璐︽埛鐧诲綍']]
+[2018-05-23 22:19:05,225] INFO  org.webdriver.patatiumwebui.utils.ElementAction click鍏冪礌锛氳处鎴风櫥褰昜By.xpath://a[text()='璐︽埛鐧诲綍']]鎴愬姛锛�
+[2018-05-23 22:19:06,226] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:06,298] INFO  org.webdriver.patatiumwebui.utils.ElementAction 娓呴櫎input鍊�:瀵嗙爜杈撳叆妗哰By.id:nloginpwd]
+[2018-05-23 22:19:06,298] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氱敤鎴峰悕杈撳叆妗嗘柟寮廩By.xpath://input[@id='loginname']]
+[2018-05-23 22:19:06,369] INFO  org.webdriver.patatiumwebui.utils.ElementAction input杈撳叆锛氱敤鎴峰悕杈撳叆妗哰By.xpath://input[@id='loginname']value:aaa]
+[2018-05-23 22:19:06,370] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:06,418] INFO  org.webdriver.patatiumwebui.utils.ElementAction 娓呴櫎input鍊�:瀵嗙爜杈撳叆妗哰By.id:nloginpwd]
+[2018-05-23 22:19:06,419] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:06,473] INFO  org.webdriver.patatiumwebui.utils.ElementAction input杈撳叆锛氬瘑鐮佽緭鍏ユ[By.id:nloginpwdvalue:bbb]
+[2018-05-23 22:19:06,473] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氱櫥褰曟寜閽柟寮廩By.id:loginsubmit]
+[2018-05-23 22:19:06,592] INFO  org.webdriver.patatiumwebui.utils.ElementAction click鍏冪礌锛氱櫥褰曟寜閽甗By.id:loginsubmit]鎴愬姛锛�
+[2018-05-23 22:19:07,594] INFO  org.webdriver.patatiumwebui.utils.Assertion 楠岃瘉鏄惁鍑虹幇棰勬湡鐨勯敊璇彁绀轰俊鎭�:璐︽埛鍚嶄笌瀵嗙爜涓嶅尮閰嶏紝璇烽噸鏂拌緭鍏�:銆怉ssert楠岃瘉銆�:椤甸潰鏄惁鍑虹幇銆愰鏈熷�硷細璐︽埛鍚嶄笌瀵嗙爜涓嶅尮閰嶏紝璇烽噸鏂拌緭鍏ャ�戝瓧绗︿覆
+//*[contains(text(),'璐︽埛鍚嶄笌瀵嗙爜涓嶅尮閰嶏紝璇烽噸鏂拌緭鍏�')]
+[2018-05-23 22:19:07,627] ERROR org.webdriver.patatiumwebui.utils.Assertion 銆怉ssert楠岃瘉  failed!銆�
+[2018-05-23 22:19:07,995] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 閿欒鎴浘锛欵:\testtest\PatatiumWebUi\test-output\snapshot\2018-05-23 221907631.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="loginFail" classname="LoginTest" time="4.519">
+    <failure message="expected [0] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at org.webdriver.patatiumwebui.utils.Assertion.VerityError(Assertion.java:1041)
+	at LoginTest.loginFail(LoginTest.java:60)
+</failure>
+    <system-out><![CDATA[[2018-05-23 22:19:08,000] ERROR org.webdriver.patatiumwebui.utils.TestListener 1
+[2018-05-23 22:19:08,339] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 閿欒鎴浘锛欵:\testtest\PatatiumWebUi\test-output\snapshot\鐧诲綍澶辫触鐢ㄤ緥1.jpg
+[2018-05-23 22:19:08,341] ERROR org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥: 鐧诲綍澶辫触鐢ㄤ緥--failed
+[2018-05-23 22:19:08,341] INFO  org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥:鐧诲綍澶辫触鐢ㄤ緥---end
+[2018-05-23 22:19:08,342] INFO  org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥:鐧诲綍澶辫触鐢ㄤ緥---start
+[2018-05-23 22:19:09,871] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 鎵撳紑娴忚鍣紝璁块棶https://passport.jd.com/new/login.aspx缃戝潃!
+https://passport.jd.com/new/login.aspx
+[2018-05-23 22:19:10,006] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氳处鎴风櫥褰曟柟寮廩By.xpath://a[text()='璐︽埛鐧诲綍']]
+[2018-05-23 22:19:10,102] INFO  org.webdriver.patatiumwebui.utils.ElementAction click鍏冪礌锛氳处鎴风櫥褰昜By.xpath://a[text()='璐︽埛鐧诲綍']]鎴愬姛锛�
+[2018-05-23 22:19:11,102] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:11,173] INFO  org.webdriver.patatiumwebui.utils.ElementAction 娓呴櫎input鍊�:瀵嗙爜杈撳叆妗哰By.id:nloginpwd]
+[2018-05-23 22:19:11,173] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氱敤鎴峰悕杈撳叆妗嗘柟寮廩By.xpath://input[@id='loginname']]
+[2018-05-23 22:19:11,232] INFO  org.webdriver.patatiumwebui.utils.ElementAction input杈撳叆锛氱敤鎴峰悕杈撳叆妗哰By.xpath://input[@id='loginname']value:ccc]
+[2018-05-23 22:19:11,233] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:11,292] INFO  org.webdriver.patatiumwebui.utils.ElementAction 娓呴櫎input鍊�:瀵嗙爜杈撳叆妗哰By.id:nloginpwd]
+[2018-05-23 22:19:11,293] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:11,346] INFO  org.webdriver.patatiumwebui.utils.ElementAction input杈撳叆锛氬瘑鐮佽緭鍏ユ[By.id:nloginpwdvalue:ddd]
+[2018-05-23 22:19:11,346] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氱櫥褰曟寜閽柟寮廩By.id:loginsubmit]
+[2018-05-23 22:19:11,476] INFO  org.webdriver.patatiumwebui.utils.ElementAction click鍏冪礌锛氱櫥褰曟寜閽甗By.id:loginsubmit]鎴愬姛锛�
+[2018-05-23 22:19:12,477] INFO  org.webdriver.patatiumwebui.utils.Assertion 楠岃瘉鏄惁鍑虹幇棰勬湡鐨勯敊璇彁绀轰俊鎭�:瀵嗙爜涓嶆纭�:銆怉ssert楠岃瘉銆�:椤甸潰鏄惁鍑虹幇銆愰鏈熷�硷細瀵嗙爜涓嶆纭�戝瓧绗︿覆
+//*[contains(text(),'瀵嗙爜涓嶆纭�')]
+[2018-05-23 22:19:12,504] ERROR org.webdriver.patatiumwebui.utils.Assertion 銆怉ssert楠岃瘉  failed!銆�
+[2018-05-23 22:19:12,859] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 閿欒鎴浘锛欵:\testtest\PatatiumWebUi\test-output\snapshot\2018-05-23 221912507.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="loginFail" classname="LoginTest" time="3.271"/>
+  <testcase name="loginFail" classname="LoginTest" time="3.289"/>
+  <testcase name="login" classname="LoginTest" time="5.486">
+    <failure message="expected [0] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at org.webdriver.patatiumwebui.utils.Assertion.VerityError(Assertion.java:1041)
+	at LoginTest.login(LoginTest.java:39)
+</failure>
+    <system-out><![CDATA[[2018-05-23 22:19:19,771] INFO  org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥: 鐧诲綍澶辫触鐢ㄤ緥--passed
+[2018-05-23 22:19:19,771] INFO  org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥:鐧诲綍澶辫触鐢ㄤ緥---end
+[2018-05-23 22:19:21,011] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase -------------缁撴潫娴嬭瘯锛屽苟鍏抽棴閫�鍑烘祻瑙堝櫒-------------
+[2018-05-23 22:19:21,026] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase ------------------寮�濮嬫墽琛屾祴璇�---------------
+[2018-05-23 22:19:21,026] INFO  org.webdriver.patatiumwebui.utils.TestBaseCase 璇诲彇testng.xml閰嶇疆鐨凢irefoxDriver娴忚鍣ㄥ苟灏嗗叾鍒濆鍖�
+
+
+[2018-05-23 22:19:25,559] INFO  org.webdriver.patatiumwebui.utils.TestListener 娴嬭瘯鐢ㄤ緥:鐧诲綍鎴愬姛娴嬭瘯---start
+[2018-05-23 22:19:26,943] INFO  org.webdriver.patatiumwebui.pageObject.LoginPage 鎵撳紑娴忚鍣紝璁块棶https://passport.jd.com/new/login.aspx缃戝潃!
+https://passport.jd.com/new/login.aspx
+[2018-05-23 22:19:27,170] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氳处鎴风櫥褰曟柟寮廩By.xpath://a[text()='璐︽埛鐧诲綍']]
+[2018-05-23 22:19:27,328] INFO  org.webdriver.patatiumwebui.utils.ElementAction click鍏冪礌锛氳处鎴风櫥褰昜By.xpath://a[text()='璐︽埛鐧诲綍']]鎴愬姛锛�
+[2018-05-23 22:19:28,330] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:28,407] INFO  org.webdriver.patatiumwebui.utils.ElementAction 娓呴櫎input鍊�:瀵嗙爜杈撳叆妗哰By.id:nloginpwd]
+[2018-05-23 22:19:28,407] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氱敤鎴峰悕杈撳叆妗嗘柟寮廩By.xpath://input[@id='loginname']]
+[2018-05-23 22:19:28,483] INFO  org.webdriver.patatiumwebui.utils.ElementAction input杈撳叆锛氱敤鎴峰悕杈撳叆妗哰By.xpath://input[@id='loginname']value:
+]
+[2018-05-23 22:19:28,483] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:28,528] INFO  org.webdriver.patatiumwebui.utils.ElementAction 娓呴櫎input鍊�:瀵嗙爜杈撳叆妗哰By.id:nloginpwd]
+[2018-05-23 22:19:28,528] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氬瘑鐮佽緭鍏ユ鏂瑰紡[By.id:nloginpwd]
+[2018-05-23 22:19:28,584] INFO  org.webdriver.patatiumwebui.utils.ElementAction input杈撳叆锛氬瘑鐮佽緭鍏ユ[By.id:nloginpwdvalue:]
+[2018-05-23 22:19:28,584] INFO  org.webdriver.patatiumwebui.utils.ElementAction 鏌ユ壘鍏冪礌锛氱櫥褰曟寜閽柟寮廩By.id:loginsubmit]
+[2018-05-23 22:19:28,682] INFO  org.webdriver.patatiumwebui.utils.ElementAction click鍏冪礌锛氱櫥褰曟寜閽甗By.id:loginsubmit]鎴愬姛锛�
+[2018-05-23 22:19:30,682] INFO  org.webdriver.patatiumwebui.utils.Assertion 杈撳叆姝ｇ‘鐨勭敤鎴峰悕鍜屽瘑鐮侊紝楠岃瘉鏄惁鎴愬姛杩涘叆涓婚〉:銆怉ssert楠岃瘉銆�:椤甸潰鏄惁鍑虹幇銆愰鏈熷�硷細jd_8456195銆戝瓧绗︿覆
+false
+[2018-05-23 22:19:30,699] ERROR org.webdriver.patatiumwebui.utils.Assertion 銆怉ssert楠岃瘉  failed!銆�
+[2018-05-23 22:19:31,045] ERROR org.webdriver.patatiumwebui.utils.ScreenShot 閿欒鎴浘锛欵:\testtest\PatatiumWebUi\test-output\snapshot\2018-05-23 221930702.jpg
+]]></system-out>
+  </testcase>
+</testsuite>
